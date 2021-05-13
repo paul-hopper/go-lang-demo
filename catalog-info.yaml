@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: golang-demo
+  description: demo
+  annotations: 
+    github.com/project-slug: paul-hopper/go-lang-demo
+    backstage.io/source-ref: "https://github.com/paul-hopper/go-lang-demo"
+    backstage.io/techdocs-ref: url:https://github.com/paul-hopper/go-lang-demo
+    backstage.io/github-actions-id: https://github.com/paul-hopper/go-lang-demo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: paulcroarkin
