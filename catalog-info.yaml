@@ -15,3 +15,5 @@ spec:
   system: hopper
   providesApis:
     - go-lang-demo
+  consumesApis:
+    - starwars-graphql
