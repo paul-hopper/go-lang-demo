@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: go-lang-demo
+  description: API for go-lang-demo
+spec:
+  type: openapi
+  lifecycle: production
+  owner: paulcroarkin
+  definition:
+    $text: https://github.com/APIs-guru/openapi-directory/blob/master/APIs/archive.org/wayback/1.0.0/openapi.yaml
